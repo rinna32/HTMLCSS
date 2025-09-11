@@ -1,0 +1,33 @@
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.music, .video {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.centered-heading {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
