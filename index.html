@@ -1,85 +1,78 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeoGoth Vogue</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoGoth Vogue</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<audio autoplay loop>
+  <source src="audio/Electric_Wizard_-_Satanic_Rites_Of_Dragula_(SkySound.cc).mp3" type="audio/mpeg">
+</audio>
+
 <header>
-    <h1>NeoGoth Vogue</h1>
+  <div class="header-container">
+    <div class="logo">
+      <img src="img/Logo.jpg" alt="NeoGoth Vogue">
+    </div>
+    <nav class="nav-menu">
+      <a href="#catalog">Каталог</a>
+      <a href="history.html">История</a>
+      <a href="outfits.html">Аутфиты</a>
+    </nav>
+  </div>
 </header>
 
+<section class="hero">
+  <img src="img/main.jpg" alt="Главная картинка">
+  <div class="hero-overlay"></div>
+  <div class="hero-text">
+    <h1>NeoGoth Vogue</h1>
+    <p>Тёмная элегантность и мистика</p>
+  </div>
+</section>
+
+<section class="hero-video">
+  <video autoplay muted loop>
+    <source src="video/IMG_9601.MP4" type="video/mp4">
+  </video>
+</section>
+
+<section class="video-banner">
+  <img src="img/pp.jpg" alt="Баннер под видео">
+</section>
+
 <main>
-    <section class="text-about-us">
-        <p><i>Добро пожаловать в мир, где тьма становится частью красоты, а мистика — выражением индивидуальности. В нашем онлайн-ошестве мы объединяем стиль Дарк Дива и нео-готики — направления моды, которые сочетают в себе строгость и изысканность, загадочность и мрачную элегантность.</i></p>
+  <section class="text-about-us">
+    <p><i>Добро пожаловать в мир, где тьма становится частью красоты, а мистика — выражением индивидуальности...</i></p>
+  </section>
 
-        <article>
-            <h2>Что такое Дарк Дива?</h2>
-            <p><i>Дарк Дива — это олицетворение силы, независимости и загадочности. Этот образ включает в себя насыщенные темные оттенки, загадочные украшения и драматичный стиль, сочетающий готические элементы с современной женственностью. Дарк Дива — это уверенная в себе личность, которая использует моду как средство самовыражения и борьбы с будничной серостью.</i></p>
-        </article>
-
-        <article>
-            <h2>Нео-готика: современная тьма</h2>
-            <p><i>Нео-готика — направление, которое объединяет классические готические мотивы с современными трендами. Это мода для тех, кто ценит мракаю красоту, мистику и уникальность. Важным элементом нео-готики являются кожаные изделия, кружева, латунь и серебро, а также эксперимент с текстурами и формами. Этот стиль позволяет создавать яркие и выразительные образы, которые подчеркнут ваши внутренние искры.</i></p>
-        </article>
-
-        <article>
-            <h2>Почему выбирают моду Дарк Дива и Нео-Готику?</h2>
-            <ul>
-                <li><i>Индивидуальность: выразите свою уникальность через насыщенную эстетику</i></li>
-                <li><i>Мистическая привлекательность: привлеките внимание своими загадочными образами</i></li>
-                <li><i>Гибкость: сочетайте классические готические элементы с современными трендами</i></li>
-                <li><i>Мощь и элегантность: создавайте образ сильной и стильной личности</i></li>
-            </ul>
-        </article>
-    </section>
-
-    <section class="music">
-        <h2>Вдохновись вайбом треков и видео для создания своего уникального образа</h2>
-        <audio controls>
-            <source src="/audio/King_Dude_-_Holy_Christos_(musmore.org).mp3" type="audio/mpeg">
-        </audio>
-        <audio controls> 
-            <source src="/audio/Electric_Wizard_-_Satanic_Rites_Of_Dragula_(SkySound.cc).mp3" type="audio/mpeg">
-        </audio>
-    </section>
-
-    <section class="video">
-        <video controls muted loop>
-            <source src="video/IMG_9601.MP4" type="video/mp4">
-        </video>
-    </section>
-
-    <section class="trends">
-        <h2 class="centered-heading">Давай посмотрим что сейчас в тренде! Выбери категорию</h2>
-        <ul class="gallery">
-            <li class="item">
-                <img src="img/Без названия (3).jpg" alt="Сумки" width="200" height="200">
-                <button>Сумки</button>
-            </li>
-            <li class="item">
-                <img src="img/Gothic bracelet set.jpg" alt="Украшения" width="200" height="200">
-                <button>Украшения</button>
-            </li>
-            <li class="item">
-                <img src="img/Без названия (2).jpg" alt="Одежда" width="200" height="200">
-                <button>Одежда</button>
-            </li>
-        </ul>
-    </section>
+  <section class="trends">
+    <h2>Давай посмотрим что сейчас в тренде!</h2>
+    <ul class="gallery">
+      <li class="item">
+        <img src="img/Без названия (3).jpg" alt="Сумки">
+        <p>Сумки</p>
+      </li>
+      <li class="item">
+        <img src="img/Gothic bracelet set.jpg" alt="Украшения">
+        <p>Украшения</p>
+      </li>
+      <li class="item">
+        <img src="img/Без названия (2).jpg" alt="Одежда">
+        <p>Одежда</p>
+      </li>
+    </ul>
+  </section>
 </main>
-
 
 <div id="modal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <h2 id="modal-title"></h2>
-    <img id="modal-img" src="" alt="">
-    <p id="modal-text"></p>
+    <h2>Пример модального окна</h2>
+    <p>Здесь будет содержимое модального окна.</p>
   </div>
 </div>
 
