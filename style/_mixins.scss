@@ -1,0 +1,13 @@
+$font-main: 'Arial', sans-serif;
+$color-black: #000;
+$color-white: #fff;
+$color-gray: #222;
+$color-overlay: rgba(0, 0, 0, 0.5);
+$color-overlay-hover: rgba(0, 0, 0, 0.85);
+
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

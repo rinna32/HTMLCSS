@@ -1,0 +1,32 @@
+#history-banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+#history-text {
+    max-width: 800px;
+    margin: 120px auto 60px;
+    padding: 0 20px;
+    color: $color-black;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.text-with-image .content-with-image {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.text-with-image .content-with-image p {
+    flex: 1;
+    text-align: justify;
+}

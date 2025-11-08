@@ -1,0 +1,37 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $color-overlay;
+    z-index: 1000;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $color-overlay-hover;
+    }
+
+    .header-container {
+        @include flex-center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .logo img {
+            height: 60px;
+        }
+
+        .nav-menu a {
+            color: $color-white;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+
+            &:hover {
+                color: #5c5c5c;
+            }
+        }
+    }
+}
